@@ -4,7 +4,7 @@ import "./globals.css";
 import Providers from "./Providers";
 import Layout from "@/components/ui/layout";
 
-const defaultUrl = process.env.NEXT_PUBLIC_URL || "http://localhost:3000"
+const defaultUrl = process.env.NEXT_PUBLIC_S_URL || ""
 
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
