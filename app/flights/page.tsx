@@ -11,8 +11,7 @@ export default function Page() {
   const user = useUser()
   const supabase = useSupabase()
   const {
-    register,
-    formState: {errors},
+    register
   } = useForm<Flight>()
 
   const {data: data, isLoading } = useQuery({
