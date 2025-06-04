@@ -21,8 +21,8 @@ export default function Layout({ children }: PropsWithChildren) {
           />
 
           <div className="gap-2 flex flex-row">
-            <Link href="/profile">Profile</Link>
-            <Link href="/flights">Flights</Link>
+            <a href="/profile">Profile</a>
+            <a href="/flights">Flights</a>
           </div>
 
           {!hasEnvVars ? <EnvVarWarning /> : <AuthButton />}

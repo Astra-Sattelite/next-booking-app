@@ -22,7 +22,7 @@ export default async function ProtectedPage() {
       </div>
 
       <div>
-        <Link style={{ color: "blue" }} className="text-2xl" replace={true} href="/profile">Profile</Link>
+        <a style={{ color: "blue" }} className="text-2xl" href="/profile">Go to Profile</a>
       </div>
 
       <div className="flex flex-col gap-2 items-start">
